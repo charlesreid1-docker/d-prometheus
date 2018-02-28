@@ -15,7 +15,10 @@ See [dockerhub prometheus](https://hub.docker.com/r/prom/prometheus/).
 
 Prometheus has a web interface available on port 9090.
 
-## Custom config
+## Using custom Prometheus config
+
+See [prometheus repo](https://github.com/prometheus/prometheus/blob/master/documentation/examples/prometheus.yml)
+for an example `prometheus.yml` config file.
 
 To use a custom `prometheus.yml` config file, there are two options:
 
@@ -37,4 +40,8 @@ docker run \
         prom/prometheus \
         --config.file=/prometheus-data/prometheus.yml
 ```
+
+## Netdata-Prometheus config
+
+
 
