@@ -1,8 +1,8 @@
 #!/bin/bash
 
 docker run \
-    --name happyprom \
+    --name happy_prom \
     -d \
-    -p 127.0.0.1:9090:9090 \
+    -p 10.6.0.2:9090:9090 \
     quay.io/prometheus/prometheus
 
